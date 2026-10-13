@@ -145,8 +145,8 @@ The supplied benchmark client reports average client round-trip latency. The p95
 
 ## Team & References
 
-| Name | Student ID | Role |
-|---|---|---|
+| Name | Role |
+|---|---|
 | Evan Landong  | Lead MLOps Engineer / Student |
 | Ronald Allen Cabral | Data & Training Lead |
 | Jersey Calisle Estrella | Backend API Developer |
