@@ -6,12 +6,12 @@ A production-ready, containerized machine-learning inference service for real-ti
 
 ## Quick Start: Local Testing
 
-Prerequisites: Git, Docker, and Python 3. Replace `<repository-url>` with the URL of this repository.
+Prerequisites: Git, Docker, and Python 3. https://github.com/ejdlandong/Credit-Card-Fraud-Detection.git.
 
 Clone the repository:
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/ejdlandong/Credit-Card-Fraud-Detection.git
 cd Credit-Card-Fraud-Detection
 ```
 
