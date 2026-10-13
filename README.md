@@ -41,7 +41,7 @@ python3 tests/client.py --url http://localhost:8000 --n 200
 
 ## Architecture & Environment
 
-The project simulates a cloud deployment using WSL2 Ubuntu. The client node is `evan_josh`, and the cloud node is `sakura`.
+The project simulates a cloud deployment using WSL2 Ubuntu. The client node is `sakura`, and the cloud node is `sakura`.
 
 FastAPI serves traffic on TCP port 8000. The `/v1/predict` route accepts a JSON body with a `features` object containing exactly 30 numerical values: `Time`, `V1` through `V28`, and `Amount`. Pydantic validates the named fields and rejects missing or extra fields. The API assembles values in the model's feature order, converts them to a `float32` tensor, and passes the tensor to ONNX Runtime. Docker packages the API and ONNX model in an isolated, non-root runtime container.
 
